@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>Weather App</h1>
+      <div class="search-bar">
+        <input type="text" id="cityInput" placeholder="Search city or ZIP..." />
+        <button id="searchBtn">🔍</button>
+        <button id="locateBtn">📍</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="currentWeather"></section>
+      <section id="forecast"></section>
+    </main>
+
+    <footer>
+      <p>Powered by <a href="https://openweathermap.org/">OpenWeather</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
